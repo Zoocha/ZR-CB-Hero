@@ -1,0 +1,33 @@
+uuid: 1dc4a883-c020-41c7-99f1-baea30fd333c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero.field_media
+    - field.field.paragraph.hero.field_sub_title
+    - paragraphs.paragraphs_type.hero
+  module:
+    - media_library
+id: paragraph.hero.default
+targetEntityType: paragraph
+bundle: hero
+mode: default
+content:
+  field_media:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_sub_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

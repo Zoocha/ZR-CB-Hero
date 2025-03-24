@@ -1,0 +1,11 @@
+uuid: 45ca8b43-fed9-4fb4-aeba-59c8a56ccb61
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+block_id: 'inline_block:hero'
+category: zoocha_components
+label: Hero
+image_path: ''
+image_alt: ''
+weight: -100
