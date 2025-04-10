@@ -5,7 +5,7 @@ recipes:
   - zr-media-bundle
   - zr-layout-builder-bundle
 
-install
+install:
   - linkit
 
 config:
