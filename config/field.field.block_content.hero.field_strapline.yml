@@ -1,0 +1,19 @@
+uuid: 20a90bfc-0169-437c-a8d1-e3de1566e357
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hero
+    - field.storage.block_content.field_strapline
+id: block_content.hero.field_strapline
+field_name: field_strapline
+entity_type: block_content
+bundle: hero
+label: Strapline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
